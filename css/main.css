@@ -1,0 +1,56 @@
+
+/* base */
+@import './base/reset.css';
+@import './base/variables.css';
+
+/* 3rd-party */
+
+
+/* components */
+@import './components/todo.css';
+
+
+/* CUSTOM STYLE BELOW THIS COMMENT LINE */
+    main {
+        margin-left:100px;
+        margin-top:100px;   
+}
+
+    .formos {
+        width: 400px;
+        display:flex;
+        flex-direction:row;
+        ;
+
+    }
+
+    .formaEN {
+       margin-right: 15px;
+    }
+    .formaEN > label {
+        display: flex;
+        justify-content: center;
+       
+    }
+
+
+    .formaLT {
+        margin-right: 15px;
+    }
+    .formaLT > label {
+        display: flex;
+        justify-content: center;
+    }
+
+    .buttons {
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+        align-self: flex-end;
+    }
+    
+    .lentele > th {
+    background-color: yellow;
+    }
+
+
